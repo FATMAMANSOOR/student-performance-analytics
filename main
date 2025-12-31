@@ -3,7 +3,7 @@ number_of_students = int(input("Enter number of students: "))
 for i in range(1, number_of_students):
     student_score = int(input("Enter student score: "))
 
-    if student_score <= 50:
+    if student_score < 50:
         print("Weak Performance Detected")
     else:
         print("Satisfactory Performance")
